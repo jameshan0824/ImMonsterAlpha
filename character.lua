@@ -10,6 +10,7 @@ local function generateCharacter( offset )
 
 	--local selOffset = (( (offset or math.random(4)) + 1 ) % 4) * 4
 
+
 	-- Create our player sprite sheet
 	local sheetOptions = {
 		width = 200,
