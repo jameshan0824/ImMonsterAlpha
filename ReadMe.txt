@@ -1,0 +1,1 @@
+This is a simple one-touch game in which player rapidly taps the screen to run away from a giant monster.

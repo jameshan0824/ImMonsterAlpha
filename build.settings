@@ -1,0 +1,37 @@
+settings = 
+{
+	android =
+	{
+		usesFeatures =
+		{
+			{ name="android.hardware.touchscreen", required=false },
+			{ name="android.hardware.gamepad", required=false },
+			{ name="android.software.leanback", required=false },
+		},
+		supportsTV = true,
+		isGame = true,
+		mainIntentFilter =
+		{
+			categories =
+			{
+				"tv.ouya.intent.category.GAME",
+				"android.intent.category.LEANBACK_LAUNCHER",
+			},
+		}
+	},
+	orientation =
+	{
+		default = "portrait",
+		supported = { "portrait", "portrait" },
+	},
+	window =
+	{
+		suspendWhenMinimized = true,
+		defaultViewWidth = 640,
+		defaultViewHeight = 960,
+		titleText =
+		{
+			default = "Pew Pew!",
+		},
+	},
+}
